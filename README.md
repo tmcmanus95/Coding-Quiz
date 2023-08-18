@@ -6,6 +6,8 @@ To begin the quiz, simply click the link below and press the start button.
 
 # Project link:
 
+Play the quiz: https://tmcmanus95.github.io/Coding-Quiz/
+
 # Screenshot
 
 ![CodingQuiz](https://github.com/tmcmanus95/Coding-Quiz/assets/122508345/b266eb44-dd43-4c0e-94f7-ccadd6c3cde3)
