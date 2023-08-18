@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+
+    <h1>Test Your Coding Knowledge</h1>
+    <div id="questions-container">
+        <h4 id="question-prompt">Coding Quiz</h2>
+        <ul id="possible-responses">
+            <li>Sharpen Your Coding Skills,</li>
+            <li>And Have Some Fun.</li>
+            <li>Just Click Start,</li>
+            <li>And The Quiz Will Run.</li>
+        </ul>
+        <button id="start-button">Start</button>
+        <div id="timer-container">Time Remaining: <span id="time-in-seconds">60</span> <span>Seconds</span></div>
+    </div>
+    <div id="score-container">
+        <h2 id="score-display">Your Score: <span id="score-number">0</span></h2>
+      <div id="hidden-until-end" style="display: none">
+        <input id="initials-input" type="text" placeholder="Enter your initials" />
+        <button id="save-button">Save</button>
+        <button id="clear-button">Clear</button>
+        <button id="play-again-button">Play Again</button>
+        <h3>High Scores</h3>
+        <ul id="list-for-scores"></ul>
+      </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+  <html>
